@@ -3,11 +3,11 @@ project(ceres)
 
 set(CMAKE_CXX_STANDARD 11)
 
-# eigen
+# eigen: version 3.3.7
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/ext/eigen)
 include(eigen)
 
-# ceres
+# ceres: version 1.13.0
 list(APPEND CMAKE_MODULE_PATH ${CMAKE_SOURCE_DIR}/ext/ceres)
 include(ceres)
 
